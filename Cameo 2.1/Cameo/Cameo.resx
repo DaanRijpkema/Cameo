@@ -1,0 +1,1457 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="cameoTray.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="cameoTrayMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>128, 17</value>
+  </metadata>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="trayMenuLabel.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="trayMenuLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 22</value>
+  </data>
+  <data name="trayMenuLabel.Text" xml:space="preserve">
+    <value>Cameo v1.0</value>
+  </data>
+  <data name="trayMenuQuit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 22</value>
+  </data>
+  <data name="trayMenuQuit.Text" xml:space="preserve">
+    <value>Quit Cameo</value>
+  </data>
+  <data name="cameoTrayMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>139, 48</value>
+  </data>
+  <data name="cameoTrayMenu.Text" xml:space="preserve">
+    <value>Cameo v1.0</value>
+  </data>
+  <data name="&gt;&gt;cameoTrayMenu.Name" xml:space="preserve">
+    <value>cameoTrayMenu</value>
+  </data>
+  <data name="&gt;&gt;cameoTrayMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cameoTray.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAIAEBAAAAAAIABoBAAAJgAAACAgAAAAACAAqBAAAI4EAAAoAAAAEAAAACAAAAABACAAAAAAAEAE
+        AAAAAAAAAAAAAAAAAAAAAAAA////Af///wH///8B////Af///wH4//4DPf++aSf/tb0U/7DlD/+v6x//
+        stGW/9w3////Af///wH///8B////Af///wH///8B////Af///wFH/8BdUf/GewT/q/sA/6z/AP+r/xD/
+        redT/8VH////Af///wH///8B////Af///wH///8B////Af///wFA/713AP+n/3T/0XkA/6n/AP+q/x3/
+        sruY/94Z////Af///wH///8B////Af///wH///8B////Af///wFL/8NLAP+p/wD/qf92/9N5A/+o+zz/
+        vH3z//wD////Af///wH///8B////Af///wH///8B////Af///wHj//cHFf+w2wD/rP8E/6z5XP/KcVP/
+        xT////8B////Af///wH///8B////Af///wH///8B////Af///wH///8BxP/sFxb/sMsA/6v/F/+x4f//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////AR//s49X/8dxDf+t7Sj/
+        tb////8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wEq/7atDf+s7Vj/
+        yHEi/7Kb////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8BKf+1qwD/
+        q/8W/7DJq//kJf///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////ASD/
+        tY0A/6v/AP+q/zL/uY////8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wFi/8tHAP+n/wD/qf8A/6n/Sv/DT////wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B9f/8A5H/2l9w/9B5Nv+8iz7/vJXt//oH////Af///wH///8B////AbX/6BM//76X9f/9A///
+        /wH///8B////Af///wFF/8JNAf+o/Qj/rfUe/7PVKf+1tyH/tZUr/7lrZv/LLVr/yDUS/67fKf+1wf//
+        /wH///8B////Af///wH///8B////AUL/vnMA/6r/AP+s/wD/rP8A/6n/If+zsVD/xIUF/6v5AP+r/yX/
+        tZ3///8B////Af///wH///8B////Af///wH///8BSv/CVQ//rukG/6r3T//EfyT/tK8A/6r/AP+s/wD/
+        qf8j/7Z3////Af///wH///8B////Af///wH///8B////Af///wHD/+wPj//ZK0j/v50X/7HhEv+w5yL/
+        tM0p/7eNif/ZHf///wH///8B////AQAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA
+        //8AAP//AAD//wAA//8AAP//AAD//wAA//8oAAAAIAAAAEAAAAABACAAAAAAAIAQAAAAAAAAAAAAAAAA
+        AAAAAAAA////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Ad3/
+        9B+d/95fYv/KmTr/vsEl/7fXH/+13Sb/t9U//7+3Zf/LkZ7/31v4//0H////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Afj/
+        /gdm/82VEP+u7QD/qP8A/6j/AP+p/wD/qv8A/6r/AP+q/wD/pf8A/6j/iP/Yc/r//gX///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////AdX/
+        8ilX/8ijyv/vMQ7/sPEA/6j/AP+s/wD/rP8A/6z/AP+s/wD/q/8A/6b/K/+408f/7Tf///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wGi/+FZDv+s8Rr/tOXH/+4zA/+s/QD/q/8A/6z/AP+s/wD/rP8A/6r/AP+n/17/yp/v//sP////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8Bh//YdQD/qP8A/6X/S//Esbf/6EUA/6j/AP+r/wD/rP8A/6z/AP+n/wz/rfOY/95l////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////AZD/22sA/6b/AP+q/wD/p/9w/9CNmf/eYwD/pv8A/6z/AP+r/wD/pv8x/7rLzv/wL///
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wG7/+lBAv+p/QD/qv8A/6z/AP+m/5T/3Wd1/9KJAP+n/wD/qv8A/6f/Zf/Ml/P/
+        /Av///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B8P/7DyD/td0A/6j/AP+s/wD/q/8A/6f/s//nR0//xq8A/6P/EP+u76D/
+        4F3///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wF7/9SBAP+l/wD/rP8A/6z/AP+r/wL/q/3F/+01HP+14zT/
+        usnT//Ip////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B4//3Gw3/r/EA/6r/AP+s/wD/rP8A/6r/E/+y68n/
+        7jF8/9R/9f/9Cf///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wHq//kTFf+x6QD/qf8A/6z/AP+s/wD/
+        qf8n/7jV+f/+Bf///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B/P//Bbf/6EO2/+hHAf+p/wD/
+        q/8A/6z/AP+n/0b/w7X///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wHq//kVC/+u87X/
+        6EeE/9h3AP+l/wD/rP8A/6b/av/Pkf///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Acj/
+        7jUA/6f/Ff+x6+H/9htF/8K3AP+n/wD/pv+Q/9tr////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8Bqf/kUwD/p/8A/6b/Rf/CueD/9hsW/7HpAP+l/7X/50f///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wGc/99hAP+n/wD/rP8A/6X/hf/Yebj/6UUB/6j/0//yKf///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////AZz/32EA/6f/AP+s/wD/q/8B/6n/vP/qQZP/3Wfk//cZ////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8Bq//kUQD/p/8A/6z/AP+s/wD/qf8Y/7Ln5//4Ff//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wHI/+41AP+q/wD/q/8A/6z/AP+s/wD/
+        pv9D/8G7/v//A////wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Ae3/+hER/7HtAP+q/wD/
+        rP8A/6z/AP+s/wD/pv9+/9Z/////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////AUX/
+        wrkA/6f/AP+s/wD/rP8A/6z/AP+q/wL/qf26/+lD////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8Bmf/eYwD/o/8A/6b/AP+n/wD/qP8A/6r/AP+o/xv/s+Pn//gX////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH9//8D////Af///wH///8B////Af//
+        /wH///8B////Af///wH1//wJp//iVY//2m1q/86TRv/CuSX/t9kM/6/zAP+k/zz/v8H0//wL////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wHf//Yfa//PjfX//Qv///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wHD/+w1c//Ph57/31u5/+hByf/tMcv/7i+//+o7nv/fXer/
+        +RP///8B////Af///wH///8B////Af///wH///8B////Af///wH///8Btf/oRxj/r+U2/73L////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Aev/+RUY/7PlAP+j/wD/qf8G/633Hf+13zz/
+        v79f/8ubef/TgZv/3l++/+o93P/0H/T//An///8B////Af///wH///8B/f//A33/1H8B/6n9AP+k/2r/
+        z5f///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////AcP/7DkF/6v7AP+q/wD/
+        q/8A/6r/AP+p/wD/p/8A/6f/AP+n/wD/qf8H/673HP+13zT/u8dY/8eh5//4E+P/9xtF/8G3AP+m/wD/
+        q/8A/6b/j//bcf///wF0/9IF////Af///wH///8B////Af///wH///8B////Af///wH///8B////AZr/
+        32EA/6f/AP+q/wD/rP8A/6z/AP+s/wD/rP8A/6z/AP+r/wD/q/8A/6X/Dv+u8ar/5FOu/+VNGv+y5QD/
+        p/8A/6z/AP+r/wD/qP+y/+ZN////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////AZL/3GkA/6n/AP+p/wD/rP8A/6z/AP+s/wD/rP8A/6v/AP+m/0n/wrXc//UhhP/WeQD/
+        qf8A/6n/AP+s/wD/rP8A/6v/Av+r/9L/8S3///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Aaz/5U8W/7DnAP+m/wD/q/8A/6z/AP+p/wD/qf+G/9d32//0IUf/
+        wbcA/6b/AP+r/wD/rP8A/6z/AP+s/wD/qv8T/7Ht7f/6E////wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Ad//9R9Y/8elAP+p/wD/pP8d/7Phvf/qP7b/
+        6EcX/7HnAP+n/wD/rP8A/6z/AP+s/wD/rP8A/6v/AP+m/yT/t9v///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wHD/+w5eP/Rg9f/
+        8yV0/9GHAP+k/wD/p/8A/6r/AP+q/wD/qv8A/6n/AP+o/wD/qv8f/7Pfif/Zc////wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B+P/9BZ3/3l9q/82PQf/Atyv/uc8m/7fVLv+6zUf/wrNz/9CHsf/lS+7/+g////8B////Af//
+        /wH///8B////Af///wH///8B////AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+</value>
+  </data>
+  <data name="cameoTray.Text" xml:space="preserve">
+    <value>Cameo is running..</value>
+  </data>
+  <data name="cameoTray.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 14.25pt</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 16</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 25</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Cameo.CameraFeed</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cameraDisplay.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="cameraDisplay.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cameraDisplay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 44</value>
+  </data>
+  <data name="cameraDisplay.Size" type="System.Drawing.Size, System.Drawing">
+    <value>360, 280</value>
+  </data>
+  <data name="cameraDisplay.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="cameraDisplay.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;cameraDisplay.Name" xml:space="preserve">
+    <value>cameraDisplay</value>
+  </data>
+  <data name="&gt;&gt;cameraDisplay.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cameraDisplay.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;cameraDisplay.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 14.25pt</value>
+  </data>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 327</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 25</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Cameo.HeatMap</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="heatmapDisplay.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="heatmapDisplay.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="heatmapDisplay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 355</value>
+  </data>
+  <data name="heatmapDisplay.Size" type="System.Drawing.Size, System.Drawing">
+    <value>360, 280</value>
+  </data>
+  <data name="heatmapDisplay.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="heatmapDisplay.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;heatmapDisplay.Name" xml:space="preserve">
+    <value>heatmapDisplay</value>
+  </data>
+  <data name="&gt;&gt;heatmapDisplay.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;heatmapDisplay.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;heatmapDisplay.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="flowLayoutPanel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="flowLayoutPanel1.FlowDirection" type="System.Windows.Forms.FlowDirection, System.Windows.Forms">
+    <value>TopDown</value>
+  </data>
+  <data name="flowLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="flowLayoutPanel1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>16, 16, 16, 16</value>
+  </data>
+  <data name="flowLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>400, 695</value>
+  </data>
+  <data name="flowLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel1.Name" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel1.Parent" xml:space="preserve">
+    <value>flowDisplays</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 14.25pt</value>
+  </data>
+  <data name="label5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 16</value>
+  </data>
+  <data name="label5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 0, 3, 20</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 25</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Cameo.Controls</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>flowLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="labelSessionInfo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelSessionInfo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="labelSessionInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 61</value>
+  </data>
+  <data name="labelSessionInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 13</value>
+  </data>
+  <data name="labelSessionInfo.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="labelSessionInfo.Text" xml:space="preserve">
+    <value>No session started.</value>
+  </data>
+  <data name="&gt;&gt;labelSessionInfo.Name" xml:space="preserve">
+    <value>labelSessionInfo</value>
+  </data>
+  <data name="&gt;&gt;labelSessionInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelSessionInfo.Parent" xml:space="preserve">
+    <value>flowLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;labelSessionInfo.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="buttonStartBig.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10pt</value>
+  </data>
+  <data name="buttonStartBig.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 77</value>
+  </data>
+  <data name="buttonStartBig.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 20</value>
+  </data>
+  <data name="buttonStartBig.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 32</value>
+  </data>
+  <data name="buttonStartBig.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="buttonStartBig.Text" xml:space="preserve">
+    <value>Start new session</value>
+  </data>
+  <data name="&gt;&gt;buttonStartBig.Name" xml:space="preserve">
+    <value>buttonStartBig</value>
+  </data>
+  <data name="&gt;&gt;buttonStartBig.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonStartBig.Parent" xml:space="preserve">
+    <value>flowLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;buttonStartBig.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="labelRuntime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 22pt</value>
+  </data>
+  <data name="labelRuntime.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="labelRuntime.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelRuntime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 129</value>
+  </data>
+  <data name="labelRuntime.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 0, 3, 10</value>
+  </data>
+  <data name="labelRuntime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 41</value>
+  </data>
+  <data name="labelRuntime.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="labelRuntime.Text" xml:space="preserve">
+    <value>0:00:00</value>
+  </data>
+  <data name="labelRuntime.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;labelRuntime.Name" xml:space="preserve">
+    <value>labelRuntime</value>
+  </data>
+  <data name="&gt;&gt;labelRuntime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelRuntime.Parent" xml:space="preserve">
+    <value>flowLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;labelRuntime.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="humanCount.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="humanCount.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="humanCount.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="humanCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 180</value>
+  </data>
+  <data name="humanCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 20</value>
+  </data>
+  <data name="humanCount.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="humanCount.Text" xml:space="preserve">
+    <value>0 humans</value>
+  </data>
+  <data name="&gt;&gt;humanCount.Name" xml:space="preserve">
+    <value>humanCount</value>
+  </data>
+  <data name="&gt;&gt;humanCount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;humanCount.Parent" xml:space="preserve">
+    <value>flowLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;humanCount.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="averageHumanCount.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="averageHumanCount.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="averageHumanCount.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="averageHumanCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 200</value>
+  </data>
+  <data name="averageHumanCount.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 0, 3, 10</value>
+  </data>
+  <data name="averageHumanCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 20</value>
+  </data>
+  <data name="averageHumanCount.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="averageHumanCount.Text" xml:space="preserve">
+    <value>0 humans per minute</value>
+  </data>
+  <data name="&gt;&gt;averageHumanCount.Name" xml:space="preserve">
+    <value>averageHumanCount</value>
+  </data>
+  <data name="&gt;&gt;averageHumanCount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;averageHumanCount.Parent" xml:space="preserve">
+    <value>flowLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;averageHumanCount.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="activityLevelText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="activityLevelText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="activityLevelText.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="activityLevelText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 230</value>
+  </data>
+  <data name="activityLevelText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 20</value>
+  </data>
+  <data name="activityLevelText.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="activityLevelText.Text" xml:space="preserve">
+    <value>X activity per coffee</value>
+  </data>
+  <data name="&gt;&gt;activityLevelText.Name" xml:space="preserve">
+    <value>activityLevelText</value>
+  </data>
+  <data name="&gt;&gt;activityLevelText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;activityLevelText.Parent" xml:space="preserve">
+    <value>flowLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;activityLevelText.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="activityMeter.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="activityMeter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 253</value>
+  </data>
+  <data name="activityMeter.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 15</value>
+  </data>
+  <data name="activityMeter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>281, 11</value>
+  </data>
+  <data name="activityMeter.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;activityMeter.Name" xml:space="preserve">
+    <value>activityMeter</value>
+  </data>
+  <data name="&gt;&gt;activityMeter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;activityMeter.Parent" xml:space="preserve">
+    <value>flowLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;activityMeter.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="buttonSaveHeatmap.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonSaveHeatmap.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 282</value>
+  </data>
+  <data name="buttonSaveHeatmap.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 23</value>
+  </data>
+  <data name="buttonSaveHeatmap.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="buttonSaveHeatmap.Text" xml:space="preserve">
+    <value>Save heatmap..</value>
+  </data>
+  <data name="&gt;&gt;buttonSaveHeatmap.Name" xml:space="preserve">
+    <value>buttonSaveHeatmap</value>
+  </data>
+  <data name="&gt;&gt;buttonSaveHeatmap.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonSaveHeatmap.Parent" xml:space="preserve">
+    <value>flowLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;buttonSaveHeatmap.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="buttonSaveGraph.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonSaveGraph.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 311</value>
+  </data>
+  <data name="buttonSaveGraph.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 23</value>
+  </data>
+  <data name="buttonSaveGraph.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="buttonSaveGraph.Text" xml:space="preserve">
+    <value>Save activity chart..</value>
+  </data>
+  <data name="&gt;&gt;buttonSaveGraph.Name" xml:space="preserve">
+    <value>buttonSaveGraph</value>
+  </data>
+  <data name="&gt;&gt;buttonSaveGraph.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonSaveGraph.Parent" xml:space="preserve">
+    <value>flowLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;buttonSaveGraph.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="flowLayoutPanel2.FlowDirection" type="System.Windows.Forms.FlowDirection, System.Windows.Forms">
+    <value>TopDown</value>
+  </data>
+  <data name="flowLayoutPanel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>399, 3</value>
+  </data>
+  <data name="flowLayoutPanel2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>16, 16, 16, 16</value>
+  </data>
+  <data name="flowLayoutPanel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>310, 359</value>
+  </data>
+  <data name="flowLayoutPanel2.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel2.Name" xml:space="preserve">
+    <value>flowLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel2.Parent" xml:space="preserve">
+    <value>flowLayoutPanel5</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 14.25pt</value>
+  </data>
+  <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 16</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 25</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Cameo.Positions</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>flowLayoutPanel3</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="trackerDisplay.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="trackerDisplay.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="trackerDisplay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 44</value>
+  </data>
+  <data name="trackerDisplay.Size" type="System.Drawing.Size, System.Drawing">
+    <value>360, 280</value>
+  </data>
+  <data name="trackerDisplay.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="trackerDisplay.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;trackerDisplay.Name" xml:space="preserve">
+    <value>trackerDisplay</value>
+  </data>
+  <data name="&gt;&gt;trackerDisplay.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;trackerDisplay.Parent" xml:space="preserve">
+    <value>flowLayoutPanel3</value>
+  </data>
+  <data name="&gt;&gt;trackerDisplay.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="flowLayoutPanel3.FlowDirection" type="System.Windows.Forms.FlowDirection, System.Windows.Forms">
+    <value>TopDown</value>
+  </data>
+  <data name="flowLayoutPanel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="flowLayoutPanel3.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>16, 16, 16, 16</value>
+  </data>
+  <data name="flowLayoutPanel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>390, 349</value>
+  </data>
+  <data name="flowLayoutPanel3.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel3.Name" xml:space="preserve">
+    <value>flowLayoutPanel3</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel3.Parent" xml:space="preserve">
+    <value>flowLayoutPanel5</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="cameoStatusbar.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>386, 17</value>
+  </metadata>
+  <data name="labelSession.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="labelSession.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 17</value>
+  </data>
+  <data name="labelSession.Text" xml:space="preserve">
+    <value>No session</value>
+  </data>
+  <data name="labelRuntime1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAABlSURBVChTYwCBtiMOAUB8H4j/QzGIHYAsCRJcD8QO
+        UAxig8QCQApAqtdDFe8H4gYoG6ToPogBUumApKAfygaZ9B+mwAAqmADlw6wCK4BbAQIgCSgNtwLdkQZQ
+        NsSRUNU4vMnAAAC/onE5NblncQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="labelRuntime1.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="labelRuntime1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 17</value>
+  </data>
+  <data name="labelRuntime1.Text" xml:space="preserve">
+    <value>00:00:00</value>
+  </data>
+  <data name="CameraSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 17</value>
+  </data>
+  <data name="CameraSize.Text" xml:space="preserve">
+    <value>Camera size:</value>
+  </data>
+  <data name="cameoStatusbar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 760</value>
+  </data>
+  <data name="cameoStatusbar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1139, 22</value>
+  </data>
+  <data name="cameoStatusbar.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="cameoStatusbar.Text" xml:space="preserve">
+    <value>statusStrip1</value>
+  </data>
+  <data name="&gt;&gt;cameoStatusbar.Name" xml:space="preserve">
+    <value>cameoStatusbar</value>
+  </data>
+  <data name="&gt;&gt;cameoStatusbar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.StatusStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cameoStatusbar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cameoStatusbar.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 14.25pt</value>
+  </data>
+  <data name="label7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 0</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 25</value>
+  </data>
+  <data name="label7.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Cameo.Activity</value>
+  </data>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+    <value>flowLayoutPanel4</value>
+  </data>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="humanActivityChart.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="humanActivityChart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 28</value>
+  </data>
+  <data name="humanActivityChart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>693, 280</value>
+  </data>
+  <data name="humanActivityChart.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="humanActivityChart.Text" xml:space="preserve">
+    <value>chart1</value>
+  </data>
+  <data name="&gt;&gt;humanActivityChart.Name" xml:space="preserve">
+    <value>humanActivityChart</value>
+  </data>
+  <data name="&gt;&gt;humanActivityChart.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataVisualization.Charting.Chart, System.Windows.Forms.DataVisualization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35</value>
+  </data>
+  <data name="&gt;&gt;humanActivityChart.Parent" xml:space="preserve">
+    <value>flowLayoutPanel4</value>
+  </data>
+  <data name="&gt;&gt;humanActivityChart.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="flowLayoutPanel4.FlowDirection" type="System.Windows.Forms.FlowDirection, System.Windows.Forms">
+    <value>TopDown</value>
+  </data>
+  <data name="flowLayoutPanel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 368</value>
+  </data>
+  <data name="flowLayoutPanel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>706, 337</value>
+  </data>
+  <data name="flowLayoutPanel4.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel4.Name" xml:space="preserve">
+    <value>flowLayoutPanel4</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel4.Parent" xml:space="preserve">
+    <value>flowLayoutPanel5</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel4.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="flowLayoutPanel5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>409, 3</value>
+  </data>
+  <data name="flowLayoutPanel5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>716, 695</value>
+  </data>
+  <data name="flowLayoutPanel5.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel5.Name" xml:space="preserve">
+    <value>flowLayoutPanel5</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel5.Parent" xml:space="preserve">
+    <value>flowDisplays</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel5.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="flowDisplays.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 29</value>
+  </data>
+  <data name="flowDisplays.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1130, 709</value>
+  </data>
+  <data name="flowDisplays.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;flowDisplays.Name" xml:space="preserve">
+    <value>flowDisplays</value>
+  </data>
+  <data name="&gt;&gt;flowDisplays.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;flowDisplays.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;flowDisplays.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="cameoToolstrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>630, 17</value>
+  </metadata>
+  <metadata name="cameoToolstrip.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="toolStripLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 18</value>
+  </data>
+  <data name="toolStripLabel1.Text" xml:space="preserve">
+    <value>Session:</value>
+  </data>
+  <data name="buttonStart.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAAYAAAAICAYAAADaxo44AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAA3SURBVBhXY2g76HC+5Yi9AQM6aDvi8B+EWw/bN0CFIAAm
+        AcbIulEkoBismzgJbEZhWo7VuQwMAC6QSwXb48d6AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="buttonStart.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="buttonStart.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="buttonStart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 19</value>
+  </data>
+  <data name="buttonStart.Text" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="buttonSave.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="buttonSave.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="buttonSave.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="buttonSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 19</value>
+  </data>
+  <data name="buttonSave.Text" xml:space="preserve">
+    <value>Save..</value>
+  </data>
+  <data name="buttonStop.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="buttonStop.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAUSURBVChTY2g74vAfHx4RChz+AwCSBaJBfsr8rgAAAABJ
+        RU5ErkJggg==
+</value>
+  </data>
+  <data name="buttonStop.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="buttonStop.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="buttonStop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 19</value>
+  </data>
+  <data name="buttonStop.Text" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="buttonReset.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="buttonReset.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABuSURBVChTY2g/bO/AAAQtR+wT2o44vAfi/yDcesRhf/1+
+        ewEGEAcq+b/tsMN8kIbWQ/YBQAX9II1gBWB80OE8WAAdwBUAMVSIMCCoCWQdigKQg0AOAzkQ5FCQBMzh
+        DCCvwASh+D1IMUhj+2F7BwBRIFmmAIWl0wAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="buttonReset.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="buttonReset.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="buttonReset.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 19</value>
+  </data>
+  <data name="buttonReset.Text" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 23</value>
+  </data>
+  <data name="buttonStats.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="buttonStats.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="buttonStats.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 19</value>
+  </data>
+  <data name="buttonStats.Text" xml:space="preserve">
+    <value>CameoStats..</value>
+  </data>
+  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 23</value>
+  </data>
+  <data name="buttonSettings.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="buttonSettings.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABOSURBVChTY0AHrYftG9qOOPxvOWKfABVCgPr99gIgydYj
+        Dv0gPoYiJAX7QYpAbKgUBLQddpgPEoRhkHVQKSRJIA0VQgDyJUEAryQDAwMAbfQ+kjvBtK0AAAAASUVO
+        RK5CYII=
+</value>
+  </data>
+  <data name="buttonSettings.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="buttonSettings.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="buttonSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 19</value>
+  </data>
+  <data name="buttonSettings.Text" xml:space="preserve">
+    <value>Settings..</value>
+  </data>
+  <data name="buttonDocumentation.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="buttonDocumentation.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="buttonDocumentation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 19</value>
+  </data>
+  <data name="buttonDocumentation.Text" xml:space="preserve">
+    <value>Documentation..</value>
+  </data>
+  <data name="buttonKinectStatus.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="buttonKinectStatus.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABuSURBVChTY2g/bO/AAAQtR+wT2o44vAfi/yDcesRhf/1+
+        ewEGEAcq+b/tsMN8kIbWQ/YBQAX9II1gBWB80OE8WAAdwBUAMVSIMCCoCWQdigKQg0AOAzkQ5FCQBMzh
+        DCCvwASh+D1IMUhj+2F7BwBRIFmmAIWl0wAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="buttonKinectStatus.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="buttonKinectStatus.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="buttonKinectStatus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 4</value>
+  </data>
+  <data name="buttonKinectStatus.Text" xml:space="preserve">
+    <value>Check Kinect connection</value>
+  </data>
+  <data name="cameoToolstrip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="cameoToolstrip.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 1, 0</value>
+  </data>
+  <data name="cameoToolstrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1139, 26</value>
+  </data>
+  <data name="cameoToolstrip.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="cameoToolstrip.Text" xml:space="preserve">
+    <value>toolStrip1</value>
+  </data>
+  <data name="&gt;&gt;cameoToolstrip.Name" xml:space="preserve">
+    <value>cameoToolstrip</value>
+  </data>
+  <data name="&gt;&gt;cameoToolstrip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cameoToolstrip.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cameoToolstrip.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>32</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1139, 782</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8.25pt</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAIAEBAAAAAAIABoBAAAJgAAACAgAAAAACAAqBAAAI4EAAAoAAAAEAAAACAAAAABACAAAAAAAEAE
+        AAAAAAAAAAAAAAAAAAAAAAAA////Af///wH///8B////Af///wH4//4DPf++aSf/tb0U/7DlD/+v6x//
+        stGW/9w3////Af///wH///8B////Af///wH///8B////Af///wFH/8BdUf/GewT/q/sA/6z/AP+r/xD/
+        redT/8VH////Af///wH///8B////Af///wH///8B////Af///wFA/713AP+n/3T/0XkA/6n/AP+q/x3/
+        sruY/94Z////Af///wH///8B////Af///wH///8B////Af///wFL/8NLAP+p/wD/qf92/9N5A/+o+zz/
+        vH3z//wD////Af///wH///8B////Af///wH///8B////Af///wHj//cHFf+w2wD/rP8E/6z5XP/KcVP/
+        xT////8B////Af///wH///8B////Af///wH///8B////Af///wH///8BxP/sFxb/sMsA/6v/F/+x4f//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////AR//s49X/8dxDf+t7Sj/
+        tb////8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wEq/7atDf+s7Vj/
+        yHEi/7Kb////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8BKf+1qwD/
+        q/8W/7DJq//kJf///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////ASD/
+        tY0A/6v/AP+q/zL/uY////8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wFi/8tHAP+n/wD/qf8A/6n/Sv/DT////wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B9f/8A5H/2l9w/9B5Nv+8iz7/vJXt//oH////Af///wH///8B////AbX/6BM//76X9f/9A///
+        /wH///8B////Af///wFF/8JNAf+o/Qj/rfUe/7PVKf+1tyH/tZUr/7lrZv/LLVr/yDUS/67fKf+1wf//
+        /wH///8B////Af///wH///8B////AUL/vnMA/6r/AP+s/wD/rP8A/6n/If+zsVD/xIUF/6v5AP+r/yX/
+        tZ3///8B////Af///wH///8B////Af///wH///8BSv/CVQ//rukG/6r3T//EfyT/tK8A/6r/AP+s/wD/
+        qf8j/7Z3////Af///wH///8B////Af///wH///8B////Af///wHD/+wPj//ZK0j/v50X/7HhEv+w5yL/
+        tM0p/7eNif/ZHf///wH///8B////AQAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA
+        //8AAP//AAD//wAA//8AAP//AAD//wAA//8oAAAAIAAAAEAAAAABACAAAAAAAIAQAAAAAAAAAAAAAAAA
+        AAAAAAAA////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Ad3/
+        9B+d/95fYv/KmTr/vsEl/7fXH/+13Sb/t9U//7+3Zf/LkZ7/31v4//0H////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Afj/
+        /gdm/82VEP+u7QD/qP8A/6j/AP+p/wD/qv8A/6r/AP+q/wD/pf8A/6j/iP/Yc/r//gX///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////AdX/
+        8ilX/8ijyv/vMQ7/sPEA/6j/AP+s/wD/rP8A/6z/AP+s/wD/q/8A/6b/K/+408f/7Tf///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wGi/+FZDv+s8Rr/tOXH/+4zA/+s/QD/q/8A/6z/AP+s/wD/rP8A/6r/AP+n/17/yp/v//sP////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8Bh//YdQD/qP8A/6X/S//Esbf/6EUA/6j/AP+r/wD/rP8A/6z/AP+n/wz/rfOY/95l////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////AZD/22sA/6b/AP+q/wD/p/9w/9CNmf/eYwD/pv8A/6z/AP+r/wD/pv8x/7rLzv/wL///
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wG7/+lBAv+p/QD/qv8A/6z/AP+m/5T/3Wd1/9KJAP+n/wD/qv8A/6f/Zf/Ml/P/
+        /Av///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B8P/7DyD/td0A/6j/AP+s/wD/q/8A/6f/s//nR0//xq8A/6P/EP+u76D/
+        4F3///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wF7/9SBAP+l/wD/rP8A/6z/AP+r/wL/q/3F/+01HP+14zT/
+        usnT//Ip////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B4//3Gw3/r/EA/6r/AP+s/wD/rP8A/6r/E/+y68n/
+        7jF8/9R/9f/9Cf///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wHq//kTFf+x6QD/qf8A/6z/AP+s/wD/
+        qf8n/7jV+f/+Bf///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B/P//Bbf/6EO2/+hHAf+p/wD/
+        q/8A/6z/AP+n/0b/w7X///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wHq//kVC/+u87X/
+        6EeE/9h3AP+l/wD/rP8A/6b/av/Pkf///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Acj/
+        7jUA/6f/Ff+x6+H/9htF/8K3AP+n/wD/pv+Q/9tr////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8Bqf/kUwD/p/8A/6b/Rf/CueD/9hsW/7HpAP+l/7X/50f///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wGc/99hAP+n/wD/rP8A/6X/hf/Yebj/6UUB/6j/0//yKf///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////AZz/32EA/6f/AP+s/wD/q/8B/6n/vP/qQZP/3Wfk//cZ////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8Bq//kUQD/p/8A/6z/AP+s/wD/qf8Y/7Ln5//4Ff//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wHI/+41AP+q/wD/q/8A/6z/AP+s/wD/
+        pv9D/8G7/v//A////wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Ae3/+hER/7HtAP+q/wD/
+        rP8A/6z/AP+s/wD/pv9+/9Z/////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////AUX/
+        wrkA/6f/AP+s/wD/rP8A/6z/AP+q/wL/qf26/+lD////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8Bmf/eYwD/o/8A/6b/AP+n/wD/qP8A/6r/AP+o/xv/s+Pn//gX////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH9//8D////Af///wH///8B////Af//
+        /wH///8B////Af///wH1//wJp//iVY//2m1q/86TRv/CuSX/t9kM/6/zAP+k/zz/v8H0//wL////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wHf//Yfa//PjfX//Qv///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wHD/+w1c//Ph57/31u5/+hByf/tMcv/7i+//+o7nv/fXer/
+        +RP///8B////Af///wH///8B////Af///wH///8B////Af///wH///8Btf/oRxj/r+U2/73L////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Aev/+RUY/7PlAP+j/wD/qf8G/633Hf+13zz/
+        v79f/8ubef/TgZv/3l++/+o93P/0H/T//An///8B////Af///wH///8B/f//A33/1H8B/6n9AP+k/2r/
+        z5f///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////AcP/7DkF/6v7AP+q/wD/
+        q/8A/6r/AP+p/wD/p/8A/6f/AP+n/wD/qf8H/673HP+13zT/u8dY/8eh5//4E+P/9xtF/8G3AP+m/wD/
+        q/8A/6b/j//bcf///wF0/9IF////Af///wH///8B////Af///wH///8B////Af///wH///8B////AZr/
+        32EA/6f/AP+q/wD/rP8A/6z/AP+s/wD/rP8A/6z/AP+r/wD/q/8A/6X/Dv+u8ar/5FOu/+VNGv+y5QD/
+        p/8A/6z/AP+r/wD/qP+y/+ZN////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////AZL/3GkA/6n/AP+p/wD/rP8A/6z/AP+s/wD/rP8A/6v/AP+m/0n/wrXc//UhhP/WeQD/
+        qf8A/6n/AP+s/wD/rP8A/6v/Av+r/9L/8S3///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Aaz/5U8W/7DnAP+m/wD/q/8A/6z/AP+p/wD/qf+G/9d32//0IUf/
+        wbcA/6b/AP+r/wD/rP8A/6z/AP+s/wD/qv8T/7Ht7f/6E////wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Ad//9R9Y/8elAP+p/wD/pP8d/7Phvf/qP7b/
+        6EcX/7HnAP+n/wD/rP8A/6z/AP+s/wD/rP8A/6v/AP+m/yT/t9v///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wHD/+w5eP/Rg9f/
+        8yV0/9GHAP+k/wD/p/8A/6r/AP+q/wD/qv8A/6n/AP+o/wD/qv8f/7Pfif/Zc////wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B+P/9BZ3/3l9q/82PQf/Atyv/uc8m/7fVLv+6zUf/wrNz/9CHsf/lS+7/+g////8B////Af//
+        /wH///8B////Af///wH///8B////AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+</value>
+  </data>
+  <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1155, 820</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1155, 820</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Cameo [No session]</value>
+  </data>
+  <data name="&gt;&gt;cameoTray.Name" xml:space="preserve">
+    <value>cameoTray</value>
+  </data>
+  <data name="&gt;&gt;cameoTray.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NotifyIcon, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;trayMenuLabel.Name" xml:space="preserve">
+    <value>trayMenuLabel</value>
+  </data>
+  <data name="&gt;&gt;trayMenuLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;trayMenuQuit.Name" xml:space="preserve">
+    <value>trayMenuQuit</value>
+  </data>
+  <data name="&gt;&gt;trayMenuQuit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelSession.Name" xml:space="preserve">
+    <value>labelSession</value>
+  </data>
+  <data name="&gt;&gt;labelSession.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelRuntime1.Name" xml:space="preserve">
+    <value>labelRuntime1</value>
+  </data>
+  <data name="&gt;&gt;labelRuntime1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CameraSize.Name" xml:space="preserve">
+    <value>CameraSize</value>
+  </data>
+  <data name="&gt;&gt;CameraSize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripLabel1.Name" xml:space="preserve">
+    <value>toolStripLabel1</value>
+  </data>
+  <data name="&gt;&gt;toolStripLabel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonStart.Name" xml:space="preserve">
+    <value>buttonStart</value>
+  </data>
+  <data name="&gt;&gt;buttonStart.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonSave.Name" xml:space="preserve">
+    <value>buttonSave</value>
+  </data>
+  <data name="&gt;&gt;buttonSave.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonStop.Name" xml:space="preserve">
+    <value>buttonStop</value>
+  </data>
+  <data name="&gt;&gt;buttonStop.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonReset.Name" xml:space="preserve">
+    <value>buttonReset</value>
+  </data>
+  <data name="&gt;&gt;buttonReset.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Name" xml:space="preserve">
+    <value>toolStripSeparator1</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonStats.Name" xml:space="preserve">
+    <value>buttonStats</value>
+  </data>
+  <data name="&gt;&gt;buttonStats.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator2.Name" xml:space="preserve">
+    <value>toolStripSeparator2</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonSettings.Name" xml:space="preserve">
+    <value>buttonSettings</value>
+  </data>
+  <data name="&gt;&gt;buttonSettings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonDocumentation.Name" xml:space="preserve">
+    <value>buttonDocumentation</value>
+  </data>
+  <data name="&gt;&gt;buttonDocumentation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonKinectStatus.Name" xml:space="preserve">
+    <value>buttonKinectStatus</value>
+  </data>
+  <data name="&gt;&gt;buttonKinectStatus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Cameo</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
